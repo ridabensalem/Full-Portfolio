@@ -7,6 +7,16 @@
   float: right;
 }
 
+.left-sect{
+  width: 960px;
+  background-image: url(Images/Thur.png);
+  height: 558px;
+}
+
+.second-container{
+  width: 960px;
+  
+}
 * {
   font-family: 'Playfair Display', serif;
 }
@@ -31,4 +41,20 @@
   height: 70px;
   margin-left: 120px;
   margin-top: 20px;
+}
+
+.verticaltext {
+  position: relative;
+  padding-left: 50px;
+  margin: 1em 0;
+  min-height: 120px;
+}
+
+.verticaltext_content {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  position: relative;
+  font-weight: bold;
 }
