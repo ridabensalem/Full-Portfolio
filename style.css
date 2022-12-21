@@ -1,3 +1,34 @@
-h1 {
-  color: green;
+.left-section {
+  background-image: url(Images/Thur.png);
+  width: 702px;
+  height: 877px;
+  left: 738px;
+  top: 100px;
+  float: right;
+}
+
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+.container-header {
+  width: 484px;
+  height: 220px;
+}
+
+.fw-bolder {
+  font-size: 110px;
+  margin-left: 120px;
+  margin-top: -200px;
+}
+
+.header-paragraph {
+  margin-left: 120px;
+}
+
+.submit-button {
+  width: 254px;
+  height: 70px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
